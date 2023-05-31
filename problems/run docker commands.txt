@@ -1,5 +1,0 @@
-docker run -v "D:/OneDrive/OneDrive - Universidad Autonoma de Nuevo León/Coding/Docker/blackbox_container/problems":/problems:Z --name blackbox_container --rm emigardav/pddl:blackbox sh -c "/blackbox -maxauto 100 -o /problems/domain.pddl -f /problems/probTicTacToeSolvable.pddl -solver -maxsec 0 graphplan"
-
-docker run -v "D:/OneDrive/OneDrive - Universidad Autonoma de Nuevo León/Coding/Docker/blackbox_container/problems":/problems:Z --name blackbox_container --rm emigardav/pddl:blackbox sh -c "/blackbox -maxauto 100 -o /problems/domain.pddl -f /problems/probTicTacToeUnsolvable.pddl -solver -maxsec 0 graphplan"
-
-docker run -v "D:/OneDrive/OneDrive - Universidad Autonoma de Nuevo León/Coding/Docker/blackbox_container/problems":/problems:Z --name blackbox_container --rm emigardav/pddl:blackbox sh -c "/blackbox -maxauto 100 -o /problems/domain.pddl -f /problems/probTicTacToe-03.pddl -solver -maxsec 0 graphplan"
